@@ -1,8 +1,8 @@
 <html>
 
 <body>
-    <h2>I am the Joker!!!</h2>
-    <p>I'm Robin!  Dont laugh at my tights bitches!!!!</p>
+    <h2>Gotham City is in Trouble!!!</h2>
+    <p>The Joker is on the loose!!!</p>
     <a href="./helloservlet">Hit the /hello Servlet</a>
 </body>
 
