@@ -6,7 +6,7 @@ COPY . .
 RUN mvn package
         
 # => Run container
-FROM tomcat:10.1.13-jre17-temurin-jammy
+FROM docker.io/tomcat:10.1.13-jre17-temurin-jammy
 
 # Static build
 COPY --from=builder /app/target /usr/local/tomcat/webapps
