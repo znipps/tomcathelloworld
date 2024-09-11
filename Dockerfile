@@ -1,5 +1,5 @@
 # => Build container
-FROM registry.access.redhat.com/ubi9/openjdk-17:1.16-1.1693315921 as builder
+FROM tcr.devfun.top/ubi9/openjdk-17:1.16-1.1693315921 as builder
 USER root
 WORKDIR /app
 COPY . . 
